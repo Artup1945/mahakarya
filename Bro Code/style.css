@@ -10,17 +10,11 @@
 
 @font-face{
     font-family: pixel;
-    src: url(/font/Geist_Pixel/GeistPixel-Regular-VariableFont_ELSH.ttf);
+    src: url('../font/Geist_Pixel/GeistPixel-Regular-VariableFont_ELSH.ttf') format("truetype");
 }
 
-/* *,
-*::before,
-*::after {
-    box-sizing: border-box;
-} */
-
 html {
-    font-family: pixel;
+    font-family: "pixel";
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -41,7 +35,7 @@ body {
 }
 
 header {
-    font-family: monserrat-b;
+    font-family: "pixel";
     font-weight: 100;
     margin-top: 0px;
     width: auto;
@@ -99,7 +93,7 @@ nav.nav-hidden {
 }
 
 .navbar {
-    font-family: pixel;
+    font-family: "pixel";
     font-weight: 400;
     position: sticky;
     top: 0;
@@ -150,7 +144,7 @@ section {
     position: absolute;
     top: 19%;
     left: 6%;
-    font-family: pixel;
+    font-family: "pixel";
     align-items: start;
 }
 
@@ -799,10 +793,6 @@ section {
     align-items: center;
     justify-content: center;
     gap: 70px;
-}
-
-.achivement-warp{
-
 }
 
 .box-cover{
