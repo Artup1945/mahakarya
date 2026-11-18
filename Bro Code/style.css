@@ -10,7 +10,7 @@
 
 @font-face{
     font-family: pixel;
-    src: url('/font/Geist_Pixel/GeistPixel-Regular-VariableFont_ELSH.ttf') format("truetype"); 
+    src: url('../font/Geist_Pixel/GeistPixel-Regular-VariableFont_ELSH.ttf') format("truetype"); 
 }
 
 html {
