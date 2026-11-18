@@ -8,6 +8,11 @@
     src: url('/font/static/Montserrat-Bold.ttf');
 }
 
+@font-face{
+    font-family: pixel;
+    src: url(/font/Geist_Pixel/GeistPixel-Regular-VariableFont_ELSH.ttf);
+}
+
 /* *,
 *::before,
 *::after {
@@ -35,7 +40,7 @@ body {
 }
 
 header {
-    font-family: monserrat-b;
+    font-family: pixel;
     font-weight: 100;
     margin-top: 0px;
     width: auto;
@@ -93,7 +98,7 @@ nav.nav-hidden {
 }
 
 .navbar {
-    font-family: montserrat;
+    font-family: pixel;
     font-weight: 400;
     position: sticky;
     top: 0;
@@ -144,12 +149,13 @@ section {
     position: absolute;
     top: 19%;
     left: 6%;
-    font-family: montserrat;
+    font-family: pixel;
     align-items: start;
 }
 
 .text-hero h1{
-    font-size: 3.3rem;
+    font-size: 7.5rem;
+    line-height: 0.9;
 }
 
 .text-hero p{
@@ -230,7 +236,7 @@ section {
 
 .tgl-buat{
     font-size: 15px;
-    font-family: montserrat;
+    font-family: pixel;
     margin: unset;
     margin-top: 5px;
     /* padding: 10px; */
@@ -244,7 +250,7 @@ section {
 /* MUSIC */
 
 /* .music {
-    font-family: montserrat;
+    font-family: pixel;
     width: 300px;
     height: 500px;
     border-radius: 20px;
@@ -256,7 +262,7 @@ section {
 
 .music {
     position: absolute;
-    font-family: montserrat;
+    font-family: pixel;
     width: 200px;
     height: 350px;
     border-radius: 20px;
@@ -273,7 +279,7 @@ section {
 }
 
 .music-name {
-    font-family: montserrat-b;
+    font-family: pixel-b;
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 10px;
@@ -281,7 +287,7 @@ section {
 
 .artist-name {
     font-size: 0.9rem;
-    font-family: montserrat;
+    font-family: pixel;
     font-weight: 500;
 }
 
@@ -479,7 +485,7 @@ section {
     gap: 5vw;
     min-height: 100vh;
     padding: 80px 8vw;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'pixel', sans-serif;
     color: #252525;
     background-color: #f8f3f3;
 }
@@ -536,7 +542,7 @@ section {
 .section-tugas {
     position: relative;
     isolation: isolate;
-    font-family: montserrat;
+    font-family: pixel;
     color: #000000;
     background-color: #f8f3f3;
     /* overflow: hidden; */
@@ -759,7 +765,7 @@ section {
 
 /* achivement */
 .section-achivement {  
-    font-family: montserrat;
+    font-family: pixel;
     color:#252525;
     background-color: #F5F5F3;
 }
@@ -862,7 +868,7 @@ section {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'pixel', sans-serif;
     color: var(--ink);
     background: var(--bg);
 }
@@ -1165,12 +1171,12 @@ footer {
 }
 
 .text-logo-footer{
-    font-family: montserrat;
+    font-family: pixel;
     font-size: 1rem;
 }
 
 .contact-footer{
-    font-family: montserrat;
+    font-family: pixel;
     padding-top: 30px;
     text-align: center;
 }
@@ -1196,7 +1202,7 @@ hr{
 }
 
 .heading-about{
-    font-family: montserrat;
+    font-family: pixel;
     text-align: center;
     font-weight: 500;
     font-size: 4rem;
