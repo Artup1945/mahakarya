@@ -273,7 +273,7 @@ section {
 }
 
 .music-name {
-    font-family: "pixel"-b;
+    font-family: "pixel";
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 10px;
@@ -479,7 +479,7 @@ section {
     gap: 5vw;
     min-height: 100vh;
     padding: 80px 8vw;
-    font-family: '"pixel"', sans-serif;
+    font-family: "pixel";
     color: #252525;
     background-color: #f8f3f3;
 }
@@ -869,6 +869,7 @@ body {
 
 /* ===== Section + background grid ===== */
 .section-guestbook {
+    font-family: "pixel";
     position: relative;
     isolation: isolate;
     min-height: 100vh;
@@ -1170,7 +1171,7 @@ footer {
 }
 
 .contact-footer{
-    font-family: ""pixel"";
+    font-family: "pixel";
     padding-top: 30px;
     text-align: center;
 }
